@@ -1,0 +1,209 @@
+.custom-border {
+    border: 2px solid #3498db; /* You can change #3498db to your desired color */
+  }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin-left: -3.2px;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Navigation Bar
+nav ul li a{
+    text-decoration: none;
+    
+}
+
+
+nav{
+    background-color: transparent;
+    height: 100px;
+    padding: 25px;
+    padding-left: 50%;
+    margin-top: -17px;
+   
+    
+   
+}
+nav ul{
+    list-style-type: none;
+    padding-top: 2%;
+    text-decoration: none;
+}
+nav ul li{
+    text-decoration: none;
+}
+.navbar-nav>.active>a {
+    background-color: blueviolet;
+}
+#about_us{
+    scroll-behavior:smooth;
+}
+/*END OF NAV*/
+
+
+/*BUTTONS
+#right-button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+#right-button:hover{
+    background-color: blueviolet;
+}
+#right-button-services{
+    padding-left: 20%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+#right-buttonservices:hover{
+    
+    background-color: blueviolet;
+}
+*/
+/* Slide show */
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slides {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slides li {
+    display: none;
+}
+
+.slides li img {
+    width: 100%;
+}
+/*End of slide show */
+
+.divauthor{
+    background-color: transparent;
+    float: right;
+    width: 70%;
+    margin-right: 5%;
+    margin-top: -15%;
+    height: 150px;
+}
+/*START OF DIVS*/
+.divmain{
+    margin-top: 3%;
+    width: 100%;
+    /*height:10%;*/
+    /*
+    box-shadow: 0px 0px 5px rgba(7, 0, 34, 0.706);*/
+}
+.divquote1{
+    /*padding-top: 2%;*/
+    margin-left: 5%;
+    width: 25%;
+    height: 18.75rem;
+    box-shadow: 0px 0px 5px rgba(7, 0, 34, 0.706);
+    background-color: transparent;
+   /* border-radius: 50%;*/
+}
+
+.divquote2{
+    margin-left: 40%;
+    width: 25%;
+    height: 18.75rem;
+    background-color:transparent;
+    margin-top: -20%;
+  /*  border-radius: 50%;*/
+    float: right;
+    box-shadow: 0px 0px 5px rgba(7, 0, 34, 0.706);
+}
+.divquote3{
+   /*padding-top: 2%;*/
+   margin-top: -20%;
+   margin-left: 40%;
+   width: 25%;
+   height: 18.75rem;
+   box-shadow: 0px 0px 5px rgba(7, 0, 34, 0.706);
+   background-color: white;
+  /* border-radius: 50%;*/
+
+}
+
+.divquote4{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 25%;
+    height: 18.75rem;
+    background-color:transparent;
+    box-shadow: 0px 0px 5px rgba(7, 0, 34, 0.706);
+
+}
+.divquote5{
+    margin-left: 40%;
+    margin-top: -19%;
+    width: 25%;
+    height: 18.75rem;
+    background-color:transparent;
+    box-shadow: 0px 0px 5px rgba(7, 0, 34, 0.706);
+}
+
+img:hover{
+    transition: transform 5s ease;
+    transform: scaleX(1.1);
+}
+img:hover-out{
+    transition: transform 5s ease;
+    transform: scaleX(1);  
+}
+.divquoteserv{
+    background-image: url('technology-d.jpg');
+    height: 18.75rem;
+}
+.elia{
+    transition-duration: 2s;
+}
+
+/*END OF DIVS
+*/
+h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+.firstimg{
+    height: 20%;
+    width: 25%;
+    background-color: cyan;
+    display: block;
+  }
+  .footer{
+    margin-top: 2%;
+   height: 18.75rem;
+   background-color: rgb(2, 4, 35);
+  }
+ 
+  .fa{
+    margin-top: 5%;
+    padding: 10px;
+    font-size:30px;
+    background-color: rgb(17, 24, 126);
+    /*margin: 5px 3px;*/
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+   
+  }
+  .fa:hover{
+    opacity: 0.6;
+  }
